@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Stefan Novaković">
+  <meta name="description" content="Fylo data storage component">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Fylo data storage component</title>
+</head>
+
+<body>
+  <main>
+    <section class="canvas">
+      <div class="canvas__main-container">
+        <div class="logo-container">
+          <img class="logo-img" src="images/logo.svg" alt="Fylo logo">
+          <div class="logo-container__icon-container">
+            <div class="icon-wrapper">
+              <img src="images/icon-document.svg" alt="Document icon">
+            </div>
+            <div class="icon-wrapper">
+              <img src="images/icon-folder.svg" alt="Folder icon">
+            </div>
+            <div class="icon-wrapper">
+              <img src="images/icon-upload.svg" alt="Upload icon">
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-container">
+          <p class="stats-container__text">
+            You've used
+            <span class="bold">815 GB</span>
+            of your storage
+          </p>
+          <div class="stats-container__slider-container">
+            <div class="stats-container__slider-container__progress-container">
+              <div class="stats-container__slider-container__progress-container__circle"></div>
+            </div>
+          </div>
+
+          <div class="stats-container__axes-values">
+            <p>0 GB</p>
+            <p>1000 GB</p>
+          </div>
+
+          <div class="stats-container__memory-left-container">
+            <p class="memory-left-highlight">185</p>
+            <p class="memory-left-regular">GB LEFT</p>
+          </div>
+          <div class="stats-container__memory-left-container-peak"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
