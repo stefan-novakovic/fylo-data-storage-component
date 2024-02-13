@@ -1,2 +1,2 @@
 Fylo data storage component\
-DEMO:
+DEMO: https://fylo-data-storage-component-novakovic.netlify.app/
